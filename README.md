@@ -10,6 +10,7 @@ ViraLens is an end-to-end AI system that analyzes images and captions to predict
 - Unified virality score with detailed breakdown
 - Interactive Gradio-based UI for real-time analysis
 
+jj
 ## 🧠 Tech Stack
 - **Backend:** FastAPI, OpenCV, PyTorch, CLIP
 - **NLP:** Transformer-based sentiment & caption analysis
