@@ -6,7 +6,7 @@ ViraLens is an end-to-end AI system that analyzes images and captions to predict
 - Image composition & geometry analysis (rule of thirds, symmetry, clutter)
 - Color & lighting quality scoring
 - Caption sentiment, hook, and CTA evaluation
-- Trend similarity using CLIP embeddings
+- Trend similarity using CLIP embeddingsfsdfsxd
 - Unified virality score with detailed breakdown
 - Interactive Gradio-based UI for real-time analysis
 
