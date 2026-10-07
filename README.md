@@ -1,4 +1,4 @@
-# ViraLens — AI Visual Intelligence for Social Media- helooooooooooooo
+# ViraLens — AI Visual Intelligence for Social Media-
 
 ViraLens is an end-to-end AI system that analyzes images and captions to predict social media virality before publishing. It breaks down *why* content performs well using computer visionwqfqwfqwf, aesthetics, trends, and language intelligence — and provides clear, creator-friendly insights.
 
