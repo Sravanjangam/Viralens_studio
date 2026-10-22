@@ -1,0 +1,24 @@
+# Backend
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-dotenv>=1.0
+python-multipart>=0.0.9
+pydantic>=2.6
+
+# Computer vision / scoring
+opencv-python>=4.9
+numpy>=1.26
+scikit-learn>=1.4
+scikit-image>=0.22
+torch>=2.2
+transformers>=4.39
+open-clip-torch>=2.24
+ultralytics>=8.1
+Pillow>=10.2
+requests>=2.31
+
+# Chat
+openai>=1.14
+
+# Frontend
+gradio>=4.26
