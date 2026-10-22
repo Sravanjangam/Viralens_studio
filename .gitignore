@@ -4,6 +4,9 @@ __pycache__/
 *.pyo
 *.pyd
 
+# Test cache
+.pytest_cache/
+
 # Virtual environment
 venv/
 .env
