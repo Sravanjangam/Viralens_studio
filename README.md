@@ -23,12 +23,29 @@ jj
 - Helps creators identify weak virality drivers *before* posting
 - Replaces trial-and-error with explainable AI insights
 
-## ▶️ Run Locally
-```bash
-# Backend
-cd backend
-uvicorn main:app --reload
+## ⚙️ Setup
 
-# Frontend
-cd frontend
-python app.py
+Requires **Python 3.10+** (Python 3.12 recommended), `pip`, and about 2 GB of free disk space for PyTorch and the model weights.
+
+Run the following from the repository root:
+
+```bash
+python3.12 -m venv .venv
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+Model weights (YOLOv8, CLIP, RoBERTa) are downloaded on the first run, so an internet connection is required then.
+
+## ▶️ Run Locally
+
+Run both processes from the repository root with the virtual environment activated:
+
+```bash
+# Terminal 1 — Backend (port 8000)
+uvicorn backend.main:app --reload
+
+# Terminal 2 — Frontend (port 7860)
+python frontend/app.py
+```
